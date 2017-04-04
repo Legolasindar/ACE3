@@ -17,10 +17,9 @@
  */
 #include "script_component.hpp"
 
-private ["_slopeDistance", "_azimuth", "_inclination"];
-_slopeDistance = _this select 0;
-_azimuth       = _this select 1;
-_inclination   = _this select 2;
+if (!GVAR(initialised)) exitWith {};
+
+params ["_slopeDistance", "_azimuth", "_inclination"];
 
 GVAR(inclinationAngle) set [GVAR(currentTarget), round(_inclination)];
 GVAR(directionOfFire) set [GVAR(currentTarget), round(_azimuth)];

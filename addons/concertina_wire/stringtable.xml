@@ -9,9 +9,11 @@
             <Spanish>Alambre de espino</Spanish>
             <French>Fill barbelé</French>
             <Czech>Ostnatý drát</Czech>
-            <Italian>Concertina wire</Italian>
+            <Italian>Filo spinato di concertina</Italian>
             <Hungarian>Concertina wire</Hungarian>
             <Portuguese>Arame farpado</Portuguese>
+            <Japanese>鉄条網</Japanese>
+            <Korean>철조망</Korean>
         </Key>
         <Key ID="STR_ACE_CONCERTINA_WIRECOIL">
             <English>Concertina Wire Coil</English>
@@ -20,10 +22,12 @@
             <Polish>Zwój koncentriny</Polish>
             <Spanish>Bobina de alambre de espino</Spanish>
             <French>Bobine de fil barbelé</French>
-            <Czech>Smyčka ostnatého drátu</Czech>
-            <Italian>Concertina wire coil</Italian>
+            <Czech>Svitek ostnatého drátu</Czech>
+            <Italian>Bobina di concertina</Italian>
             <Hungarian>Concertina wire coil</Hungarian>
             <Portuguese>Bobina de arame farpado</Portuguese>
+            <Japanese>鉄条網コイル</Japanese>
+            <Korean>윤형 철조망</Korean>
         </Key>
         <Key ID="STR_ACE_UNROLLWIRE">
             <English>Dismount Concertina Wire</English>
@@ -31,11 +35,13 @@
             <Russian>Демонтировать колючую проволоку</Russian>
             <Polish>Zwiń koncentrinę</Polish>
             <Spanish>Desmontar alambre de espino</Spanish>
-            <French>Descendre le fil barbelé</French>
+            <French>Démonter le fil barbelé</French>
             <Czech>Svinout ostnatý drát</Czech>
-            <Italian>Dismount Concertina wire</Italian>
+            <Italian>Smonta la concertina</Italian>
             <Hungarian>Dismount Concertina wire</Hungarian>
             <Portuguese>Desmontar arame farpado</Portuguese>
+            <Japanese>鉄条網をほどく</Japanese>
+            <Korean>철조망 해체</Korean>
         </Key>
         <Key ID="STR_ACE_ROLLWIRE">
             <English>Deploy Concertina Wire</English>
@@ -45,9 +51,11 @@
             <Spanish>Desplegar alambre de espino</Spanish>
             <French>Mettre en place le fil barbelé</French>
             <Czech>Rozvinout ostnatý drát</Czech>
-            <Italian>Deploy Concertina wire</Italian>
+            <Italian>Posa il filo di concertina</Italian>
             <Hungarian>Deploy Concertina wire</Hungarian>
             <Portuguese>Colocar arame farpado</Portuguese>
+            <Japanese>鉄条網を置く</Japanese>
+            <Korean>철조망 배치</Korean>
         </Key>
     </Package>
 </Project>

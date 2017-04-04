@@ -17,6 +17,8 @@
 
 params ["_player"];
 
+if (!GVAR(EnableCombatDeafness)) exitWith {};
+
 if !(_player canAdd "ACE_EarPlugs") exitWith { // inventory full
     [localize LSTRING(Inventory_Full)] call EFUNC(common,displayTextStructured);
 };
@@ -30,3 +32,5 @@ _player setVariable ["ACE_hasEarPlugsIn", false, true];
 
 //Force an immediate fast volume update:
 [[true]] call FUNC(updateVolume);
+
+[] call FUNC(updateHearingProtection);

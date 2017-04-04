@@ -17,6 +17,8 @@
 
 params ["_player"];
 
+if (!GVAR(EnableCombatDeafness)) exitWith {};
+
 // Plugs in inventory, putting them in
 _player removeItem "ACE_EarPlugs";
 
@@ -29,3 +31,5 @@ _player setVariable ["ACE_hasEarPlugsIn", true, true];
 
 /*// No Earplugs in inventory, telling user
 [localize LSTRING(NoPlugs)] call EFUNC(common,displayTextStructured);*/
+
+[] call FUNC(updateHearingProtection);

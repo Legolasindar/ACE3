@@ -12,6 +12,8 @@
             <Italian>Telescopic Ladder</Italian>
             <Hungarian>Teleszkopikus létra</Hungarian>
             <Portuguese>Escada telescópica</Portuguese>
+            <Japanese>タクティカル ラダー</Japanese>
+            <Korean>로프 사다리</Korean>
         </Key>
         <Key ID="STR_ACE_TacticalLadder_Deploy">
             <English>Deploy ladder</English>
@@ -24,6 +26,8 @@
             <Italian>Deploy ladder</Italian>
             <Hungarian>Létra lerakása</Hungarian>
             <Portuguese>Implantar escada</Portuguese>
+            <Japanese>ラダーを設置</Japanese>
+            <Korean>사다리 배치</Korean>
         </Key>
         <Key ID="STR_ACE_TacticalLadder_Drop">
             <English>Drop ladder</English>
@@ -36,17 +40,34 @@
             <Italian>Drop ladder</Italian>
             <Hungarian>Létra eldobása</Hungarian>
             <Portuguese>Derrubar escada</Portuguese>
+            <Japanese>ラダーを落とす</Japanese>
+            <Korean>사다리 놓기</Korean>
         </Key>
         <Key ID="STR_ACE_TacticalLadder_Adjust">
-            <English>Adjust ladder</English>
-            <German>Leiter einstellen</German>
-            <Polish>Reguluj drabinę</Polish>
-            <Czech>Upravit žebřík</Czech>
-            <Spanish>Ajustar escalera</Spanish>
-            <Portuguese>Ajustar escada</Portuguese>
-            <French>Régler l'échelle</French>
-            <Hungarian>Létra állítása</Hungarian>
-            <Russian>Выровнять лестницу</Russian>
+            <English>Extend</English>
+            <German>Ausfahren</German>
+            <Polish>Rozłóż</Polish>
+            <Portuguese>Extender</Portuguese>
+            <Russian>Разложить</Russian>
+            <Czech>Prodloužit</Czech>
+            <Italian>Estendi, +Ctrl ruota</Italian>
+            <Spanish>Extender</Spanish>
+            <French>Déployer</French>
+            <Japanese>伸ばす</Japanese>
+            <Korean>늘리기</Korean>
+        </Key>
+        <Key ID="STR_ACE_TacticalLadder_AdjustTilt">
+            <English>+Ctrl tilt</English>
+            <German>+Strg kippen</German>
+            <Polish>+Ctrl nachyl</Polish>
+            <Portuguese>+Ctrl tilt</Portuguese>
+            <Russian>+Ctrl наклонить</Russian>
+            <Czech>+Ctrl naklonit</Czech>
+            <Spanish>+Ctrl inclinar</Spanish>
+            <French>+Ctrl incliner</French>
+            <Italian>+Ctrl per inclinare</Italian>
+            <Japanese>+Ctrl で傾ける</Japanese>
+            <Korean>+컨트롤키 기울이기</Korean>
         </Key>
         <Key ID="STR_ACE_TacticalLadder_Position">
             <English>Position ladder</English>
@@ -59,6 +80,8 @@
             <Italian>Position ladder</Italian>
             <Hungarian>Létra elhelyezése</Hungarian>
             <Portuguese>Posicionar escada</Portuguese>
+            <Japanese>ラダーの位置</Japanese>
+            <Korean>사다리 위치</Korean>
         </Key>
         <Key ID="STR_ACE_TacticalLadder_Pickup">
             <English>Pickup ladder</English>
@@ -71,6 +94,8 @@
             <Italian>Pickup ladder</Italian>
             <Hungarian>Létra felvétele</Hungarian>
             <Portuguese>Pegar escada</Portuguese>
+            <Japanese>ラダーを拾う</Japanese>
+            <Korean>사다리 줍기</Korean>
         </Key>
     </Package>
 </Project>
